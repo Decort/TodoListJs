@@ -4,13 +4,17 @@ function capture(){
     if (userName !== 'abc') {
         alert('Nombre incorrecto');
         document.getElementById('user').focus();
-    } else {
-        if (password !== '123') {
-            alert('contraseñaincorrecta');
-            document.getElementById('password').focus();
-        }
-    }   alert('registro correcto!')
+    } else if (password !== '123') {
+            alert('contraseña incorrecta');
+            document.getElementById('password').focus(); 
+    } else if ( userName === 'abc' && password === '123') {
+        alert('registro correcto!');
     }
+    }
+
+
+    
+        
     
     
     
