@@ -1,14 +1,9 @@
 let userName;
 let password;
 
-
-
 const loginButton = document.getElementById('login');
 const form = document.getElementById('login-form');
 form.addEventListener('submit', onSubmit);
-
-
-
 
 function onSubmit(event){ 
     userName = document.getElementById('user').value;
@@ -18,12 +13,6 @@ function onSubmit(event){
         event.preventDefault();
         return 
     } 
-    window.location.replace('www.google.com');  
+    window.open('https://www.google.com/?hl=es');  
 }
-
-
-    
-        
-    
-    
-    
+// window.location.replace('www.google.com') el que habiamos puesto
