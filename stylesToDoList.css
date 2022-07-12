@@ -1,9 +1,16 @@
 * {
-    margin: 20px 10px;
     font-family: sans-serif;
 }
 body {
     background-color: rgb(37, 59, 89);
+}
+.title-list {
+    margin-left: 20px;
+    color: rgb(249, 188, 75);
+}
+.title-form {
+    color: rgb(247, 127, 63);
+    margin-right: 450px;
 }
 .container {
     background-color: rgb(76, 94, 103);
@@ -11,13 +18,15 @@ body {
     flex-direction: column;
     align-items:center;
     border-radius: 20px;
+    margin: 10px 20px;
+    width: 80%;
 }
 
 .form{
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 20px;
 }
 
 input {
@@ -27,6 +36,7 @@ input {
     height: 2em;
     border: none;
     padding: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 textarea {
@@ -34,8 +44,7 @@ textarea {
     border-radius: 20px;
     border: none;
     padding: 10px;
-    width: 600px;
-    height: 6em;
+    margin: 10px 10px 10px 0;
 }
 .button-add{
     color: rgb(247, 127, 63);
@@ -45,24 +54,20 @@ textarea {
     height: 2em;
     border: none;
     box-shadow: 2px 2px 2px rgb(12, 30, 52);
-    
 }
 .button-add:hover{
     opacity: 80%;
 }
-#tasks-list {
+.tasks-list {
     background-color: rgb(76, 94, 103);
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 950px;
-    height: 80vh;
+    align-items: center;   
     margin-left: auto;
     margin-right: auto;
-    
 }
-.list {
+.list-item {
     width: 700px;
     height: 2em;
     background-color: rgb(17, 27, 46);
@@ -73,7 +78,7 @@ textarea {
     color: antiquewhite;
     padding-left: 20px;
 }
-.list > button{
+.list-item > button{
     float: right;
     margin-top: 3px;
     border: none;
@@ -81,18 +86,10 @@ textarea {
     color: rgb(249, 78, 63);
     
 }
-.list > .edit-button {
+.list-item > .edit-button {
     color: rgb(223, 245, 23);
 }
-h3 {
-    margin-left: 20px;
-    color: rgb(249, 188, 75);
-}
-h2 {
-    color: rgb(247, 127, 63);
-    margin-right: 450px;
-}
-.list > button:hover{
+.list-item > button:hover{
     opacity: 50%;
 }
 
