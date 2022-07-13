@@ -12,7 +12,7 @@ function onSubmit(event){
         alert('Credenciales incorrectass');
         event.preventDefault();
         return 
-    } 
+    }
     window.open('https://www.google.com/?hl=es');  
 }
 // window.location.replace('www.google.com') el que habiamos puesto
