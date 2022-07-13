@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    To do list
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="stylesToDoList.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h2 class="title-form">TASK LIST</h2>
+        <form action="">
+          <input type="text" id="insert-task" placeholder="Task title" /><br />
+          <textarea
+            name="description"
+            id="description-task"
+            placeholder="Description"
+            cols="70"
+            rows="5"
+          ></textarea
+          ><br />
+          <button class="button-add" type="submit" id="add-task-button">
+            Add task
+          </button>
+        </form>
+      </div>
+      <div class="tasks-list">
+        <div>
+          <ul>
+            <h3 class="title-list">Tasks</h3>
+            <li class="list-item">
+              <div class="task-list-info">
+                <h5>Subscribe to the channel</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dicta, at impedit quia repellat rem quae nostrum velit
+                  voluptatibus molestiae omnis odio porro, saepe dignissimos
+                  recusandae distinctio dolorem incidunt, quasi illum.
+                </p>
+              </div>
+              <div>
+                <button class="edit-button">EDIT</button><button>DELETE</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="task-list-info">
+                <h5>Like the video</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem, officia veritatis eveniet saepe ipsum ratione enim
+                  illo atque distinctio obcaecati praesentium, quaerat corporis
+                  corrupti molestiae molestias nam. Esse, vel tenetur!
+                </p>
+              </div>
+              <div class="">
+                <button class="edit-button">EDIT</button><button>DELETE</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="task-list-info">
+                <h5>Leave a comment below ;)</h5>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque delectus eligendi fugiat nihil repellendus labore
+                  asperiores debitis aspernatur quos odio. Nam repudiandae
+                  dolorem mollitia, at id assumenda eius aspernatur vero?
+                </p>
+              </div>
+              <div>
+                <button class="edit-button">EDIT</button><button>DELETE</button>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="task-list-info">
+                <h5>Oh, and do not forget the bread</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur corrupti eaque eligendi necessitatibus minus.
+                  Dolores quasi ipsam assumenda ut nam quia tenetur repellat
+                  quas consectetur! Totam asperiores qui ducimus officia?
+                </p>
+              </div>
+              <div>
+                <button class="edit-button">EDIT</button><button>DELETE</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
