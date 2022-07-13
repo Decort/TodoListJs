@@ -1,95 +1,99 @@
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 body {
-    background-color: rgb(37, 59, 89);
+  background-color: rgb(37, 59, 89);
 }
 .title-list {
-    margin-left: 20px;
-    color: rgb(249, 188, 75);
+  margin-left: 20px;
+  color: rgb(249, 188, 75);
 }
 .title-form {
-    color: rgb(247, 127, 63);
-    margin-right: 450px;
+  color: rgb(247, 127, 63);
+  margin-right: 450px;
 }
 .container {
-    background-color: rgb(76, 94, 103);
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    border-radius: 20px;
-    margin: 10px 20px;
-    width: 80%;
+  background-color: rgb(76, 94, 103);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: 10px 20px;
+  width: 80%;
 }
-
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 20px;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
 }
-
 input {
-    background-color: rgb(28, 40, 63);
-    border-radius: 20px;
-    width: 90%;
-    height: 2em;
-    border: none;
-    padding: 10px;
-    margin: 10px 10px 10px 0;
+  background-color: rgb(28, 40, 63);
+  border-radius: 20px;
+  width: 90%;
+  height: 2em;
+  border: none;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
 }
-
 textarea {
-    background-color: rgb(28, 40, 63);
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-    margin: 10px 10px 10px 0;
+  background-color: rgb(28, 40, 63);
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
 }
-.button-add{
-    color: rgb(247, 127, 63);
-    background-color: rgb(41, 56, 84);
-    border-radius: 10px;
-    width: 120px;
-    height: 2em;
-    border: none;
-    box-shadow: 2px 2px 2px rgb(12, 30, 52);
+.button-add {
+  color: rgb(247, 127, 63);
+  background-color: rgb(41, 56, 84);
+  border-radius: 10px;
+  width: 120px;
+  height: 2em;
+  border: none;
+  box-shadow: 2px 2px 2px rgb(12, 30, 52);
 }
-.button-add:hover{
-    opacity: 80%;
+.button-add:hover {
+  opacity: 80%;
 }
 .tasks-list {
-    background-color: rgb(76, 94, 103);
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-    margin-left: auto;
-    margin-right: auto;
+  background-color: rgb(76, 94, 103);
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .list-item {
-    width: 700px;
-    height: 2em;
-    background-color: rgb(17, 27, 46);
-    list-style: none;
-    border-radius: 20px;
-    padding: 15px 0px 2px 5px;
-    margin-top: 30px;
-    color: antiquewhite;
-    padding-left: 20px;
+  width: 700px;
+  background-color: rgb(17, 27, 46);
+  list-style: none;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin-top: 20px;
+  color: antiquewhite;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.list-item > button{
-    float: right;
-    margin-top: 3px;
-    border: none;
-    background-color: rgb(17, 27, 46);
-    color: rgb(249, 78, 63);
-    
+.task-list-info {
+  width: 70%;
 }
-.list-item > .edit-button {
-    color: rgb(223, 245, 23);
+.task-list-info > p {
+  font-weight: lighter;
+  font-size: 0.8em;
+  text-align: justify;
 }
-.list-item > button:hover{
-    opacity: 50%;
+.list-item button {
+  margin-right: 3px;
+  border: none;
+  background-color: rgb(17, 27, 46);
+  color: rgb(249, 78, 63);
+  font-size: 0.7em;
 }
-
+.list-item .edit-button {
+  color: rgb(223, 245, 23);
+  font-size: 0.7em;
+}
+.list-item button:hover {
+  opacity: 50%;
+}
