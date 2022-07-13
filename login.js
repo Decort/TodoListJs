@@ -13,4 +13,5 @@ function onSubmit(event) {
     event.preventDefault();
     return;
   }
+  window.open('toDolist.html');
 }
